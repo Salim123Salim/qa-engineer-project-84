@@ -1,0 +1,39 @@
+- summary: |
+    Проверка формы фильтра по цене (отрицательный сценарий)
+  environment: |
+    https://github.com/Salim123Salim/qa-engineer-project-84/blob/main/testing-report.yml
+  steps-to-reproduce: |
+   -Пользователь находится на сайте https://hexlet-products-store.vercel.app/, в боковом меню стоит галочка в разделе 'товар в наличии'
+   -В боковой части сайта вводим в форму фильтрации по цене отрицательные значения 
+  expected-result: |
+    Форма не должна дать возможность введения отрицательных чисел
+  actual-result: |
+    Форма позволяет вводить отрицательные числа
+
+- summary: |
+   Проверка переключения фотографий в карточке товара
+  environment: |
+    https://github.com/Salim123Salim/qa-engineer-project-84/blob/main/testing-report.yml
+  steps-to-reproduce: |
+   -Пользователь находится на сайте https://hexlet-products-store.vercel.app 
+   -Пользователь кликает на любую карточку
+   -Пользователь перешел в карточку товара
+   Пользователь кликает на фотографии в карточке товара
+  expected-result: |
+    В карточке товара при нажатии на другие фотографии они должны открываться на месте основной фотографии карточки
+  actual-result: |
+    Фотографии в карточке товара некликабельны
+
+- summary: |
+    Проверка формы фильтра по цене (отрицательный сценарий)
+  environment: |
+    https://github.com/Salim123Salim/qa-engineer-project-84/blob/main/testing-report.yml
+  steps-to-reproduce: |
+   -Пользователь находится на сайте https://hexlet-products-store.vercel.app/, в боковом меню стоит галочка в разделе 'товар в наличии'
+   -В боковой части сайта вводим в форму фильтрации по цене отрицательные значения 
+  expected-result: |
+    Форма не должна дать возможность введения отрицательных чисел
+  actual-result: |
+    Форма позволяет вводить отрицательные числа
+
+
