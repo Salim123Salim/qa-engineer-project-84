@@ -16,7 +16,7 @@
 - summary: |
     Негативная проверка формы поиска товара по ключевому слову 
   requirement: |
-    Пользователь находится на сайте https://hexlet-products-store.vercel.app/, в
+    Пользователь находится на сайте https://hexlet-products-store vercel.app/, в
     боковом меню отмечена галочка в чек-боксе 'товар в наличии'
   prerequisites: |
     Пользователь находится на сайте https://hexlet-products-store.vercel.app
