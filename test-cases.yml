@@ -20,11 +20,11 @@
     боковом меню отмечена галочка в чек-боксе 'товар в наличии'
   prerequisites: |
     Пользователь находится на сайте https://hexlet-products-store.vercel.app
-- test-data: |
+  test-data: |
     empty
   steps: |
     - В поле 'Поиск' вводим спец символы
-   expected-result: |
+  expected-result: |
     На главной части страницы отображаются сообщение 'Ничего не найдено!'
 - summary: |
     Успешная проверка формы поиска товаров по категориям
@@ -105,7 +105,7 @@
   prerequisites: |
     Пользователь открыл браузер Google Chrome
   steps: |
-    Пользователь переходит на страницу
+   - Пользователь переходит на страницу
     https://hexlet-products-store.vercel.app
   expected-result: |
     Отерывается страница https://hexlet-products-store.vercel.app с различными
