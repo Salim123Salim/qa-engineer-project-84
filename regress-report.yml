@@ -7,9 +7,7 @@
       steps-to-reproduce: >
         - Заходим на
         https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-
         - Ставим галочку в чек-боксе 'В наличии' 
-
         - Вводим 'OPPO' в форму поиска по ключевому слову 
       expected-result: |
         Отображаются все товары с таким названием
@@ -22,12 +20,10 @@
       environment: |
         Google Chrome 120.0.6099.71 (Официальная сборка), (64 бит)
       steps-to-reproduce: >
-        Заходим на
+        -Заходим на
         https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-
-        Ставим галочку в чек-боксе 'В наличии' 
-
-        Вводим спец.символы в форму поиска по ключевому слову 
+       - Ставим галочку в чек-боксе 'В наличии' 
+       - Вводим спец.символы в форму поиска по ключевому слову 
       expected-result: |
         Выводится сообщение 'Ничего не найдено'
       actual-result: |
@@ -39,12 +35,10 @@
       environment: |
         Google Chrome 120.0.6099.71 (Официальная сборка), (64 бит)
       steps-to-reproduce: >
-        Заходим на
-        https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-
-        Ставим галочку в чек-боксе 'В наличии' 
-
-        Ставим галочку в чек-бокс какого-нибудь производителя
+        - Заходим на
+        - https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+        - Ставим галочку в чек-боксе 'В наличии' 
+        - Ставим галочку в чек-бокс какого-нибудь производителя
       expected-result: |
         Отображаются карточки товаров соответствующего размера версии страницы
       actual-result: |
