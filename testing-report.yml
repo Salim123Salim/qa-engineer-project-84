@@ -46,71 +46,71 @@
     - Проверка отображения содержимого в корзине
   status: pass
 
-  - summary: |
-    - Проверка конопок увеличения добавленного товара в корзине
+- summary: |
+     - Проверка конопок увеличения добавленного товара в корзине
   status: fail
 
-  - summary: |
+- summary: |
     - Проверка кнопки уменьшения колличества добавленного товара в корзине
   status: fail
 
-  - summary: |
+- summary: |
     - Проверка добавления несколькольких одинаковых товаров в корзину
   status: pass
-
-  - summary: |
+  
+- summary: |
      - Проверка добавления нескольких разных товаров в корзину корзине
   status: pass
 
-  - summary: |
+-  summary: |
      - Проверка удаления добавленных товаров из корзины
-  status: pass
+   status: pass
 
-  - summary: |
+- summary: |
      - Проверка отчистки корзины
   status: pass
 
-  - summary: |
+- summary: |
      - Проверка кнопки 'Продолжить покупки' в корзине
   status: pass
 
-  - summary: |
+- summary: |
     - Проверка отображения содержимого в корзине
   status: pass
 
-  - summary: |
+-  summary: |
     - Проверка возможности оплатить заказанные товары
-  status: fail
+   status: fail
 
-  - summary: |
+- summary: |
     - Проверка возмозможности перехода на разные страницы каталога
   status: fail
 
-  - summary: |
+- summary: |
     - Проверка фильтрации товара по хештегу из карточки товара
-  status: fail
+- status: fail
 
-  - summary: |
+- summary: |
     - Проверка мобильной версии сайта
   status: fail
 
-  - summary: |
+- summary: |
     - Проверка роботоспособности сайта на Яндекс браузере
   status: pass
 
-  - summary: |
+- summary: |
     - Проверка отображения элементов сайта в Opera браузере
   status: pass
 
-  - summary: |
+- summary: |
     - Проверка отображения элементов сайта в Google Chrome браузере
   status: pass
 
-  - summary: |
+- summary: |
     - Проверка функции связи со службой поддержи
   status: fail
 
-  - summary: |
+- summary: |
     - Проверка запросов на сервер при оформлении заказа
   status: pass
 
